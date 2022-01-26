@@ -2,7 +2,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-pip install azure-ai-textanalytics
+"""pip install azure-ai-textanalytics
 
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.textanalytics import TextAnalyticsClient
@@ -40,4 +40,5 @@ for doc in result:
         doc.confidence_scores.neutral,
         doc.confidence_scores.negative,
     ))
-
+"""
+print("hello world")
